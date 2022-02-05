@@ -2,6 +2,7 @@
 // Widget toy that uses mouse coordinates to determine location and size of circles, 
 // with the help of Radius and Angle to X and Y conversion
 // 20/05/2022
+// https://github.com/Parsa-S/SchoolWork/blob/main/InteractiveWidget.pde
 
 void setup(){ 
   size(800, 800);
