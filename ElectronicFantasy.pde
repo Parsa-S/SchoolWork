@@ -1,6 +1,9 @@
 // Electronic Fantasy
 // Interactive Illustration inspired by Robot Dream
 // 02/05/2022
+// https://github.com/Parsa-S/SchoolWork/blob/main/ElectronicFantasy.pde
+
+
 void setup() { // Is an act of generosity, truly for good?
   size(1120, 600);
 }
@@ -138,7 +141,6 @@ void robot() {
    fill(70, 76, 81);
   rect(800, 200, 100, 200);
 
-  
   fill(57, 60, 65);
   stroke(57, 60, 65);
   strokeWeight(1);
@@ -148,8 +150,6 @@ void robot() {
   
   arc(850, 200, 200, 200, PI, 2 * PI);
   rect(750, 200, 200, 100);
-
-
 
   // Highlight for Head
   stroke(163, 177, 190);
@@ -200,7 +200,6 @@ void robot() {
   vertex(712, 350);
   vertex(722, 374);
   endShape(CLOSE);
-  
   
   stroke(163, 177, 190);
   fill(163, 177, 190);
@@ -264,6 +263,4 @@ void boats(){
   vertex(363, 503);
   vertex(359, 492);
   endShape(CLOSE); 
-  
-
 }
