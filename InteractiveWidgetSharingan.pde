@@ -18,7 +18,7 @@ void draw() {
       strokeWeight(2);
       
       // Drawing Large Circles
-      float angle = 30 * i;    
+      float angle = 30 * i - 90;    
       float distance = map(mouseX, 0, 800, 0, 1) * 500;
       float posX = cos(angle * (PI / 180)) * distance + 400;
       float posY = sin(angle * (PI / 180)) * distance + 400;
